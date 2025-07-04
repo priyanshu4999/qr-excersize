@@ -1,6 +1,7 @@
 # QR Code Component Exercise
 
 This is a simple QR code card component built using **HTML**, **CSS**, and **JavaScript**. It's a perfect exercise for beginners to learn layout, styling, and DOM manipulation basics.
+qr generated with - https://app.qr-code-generator.com/
 
 ---
 
