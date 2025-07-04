@@ -4,12 +4,6 @@ This is a simple QR code card component built using **HTML**, **CSS**, and **Jav
 
 ---
 
-## Preview
-
-<img src="./frame.svg" alt="QR Code Preview" width="200"/>
-
----
-
 ## Features
 
 - Clean card layout with shadow and centered content
