@@ -1,0 +1,63 @@
+:root{
+  --color-1 : #0f7aee;/* #0f7aee;*/
+  --color-2 : #fff;
+  --color-text-p : #888;
+  --color-3 : #313;
+  --color-4 : #d6e1ef;
+
+  --radius-sm : 0.25em;
+  --space-sm : 0.5em;
+  --space-md : 1em;
+  --space-nil : 0em; 
+
+  --max-width-25 : 25em;
+  --max-width-12p5 : 13em;
+  --vw-width-50 : 50vw;
+  --vw-width-40 : 40vw;
+
+  --margin-0p5 : 0.5em;
+  --margin-1 : 1em;
+  --margin-1p5 : 1.5em;
+  --margin-2 : 2em;
+  --margin-2p25 : 2.25em;
+  --round-radius-0p25 : 0.25em;
+  --round-radius-0p5 : 0.5em;
+}
+html{
+  background: var(--color-4);
+  font-family: sans-serif;
+}
+img{
+  width: var(--vw-width-50);
+  max-width: var(--max-width-12p5);
+  padding: var(--margin-2p25);
+  background: var(--color-1);
+  border-radius: var(--round-radius-0p25);
+}
+
+
+p{
+  color: var(--color-text-p);
+  padding: var(--margin-0p5);
+}
+
+.-flex-column-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  height: 100vh;
+}
+.-card{
+
+  background: var(--color-2);
+  max-width: min-content;
+  max-height: fit-content;
+  padding: var(--margin-1);
+  border-radius: var(--round-radius-0p5);
+}
+.-shadow-1{
+  box-shadow: 0em 0em 2em rgba(0, 0, 0, 0.2);
+}
