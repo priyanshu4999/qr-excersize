@@ -9,7 +9,7 @@ const app = document.querySelector('#app')
 app.classList.add("-flex-column-center")
 app.innerHTML = `
   <div class="-card -flex-column-center -shadow-1">
-    <img src="/frame.svg" />
+    <img src="./frame.svg" />
     <h3>${h1}</h3>
     <p>${h2}</p>
   </div>
